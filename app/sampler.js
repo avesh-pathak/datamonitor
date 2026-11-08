@@ -9,7 +9,7 @@ const path = require('path');
  * flicker between neighbouring values at the 1 Hz sampling floor.
  */
 function startSampler(onRate, onError) {
-  const script = path.join(__dirname, 'sampler.ps1');
+  const script = path.join(__dirname, 'sampler.ps1').replace('app.asar', 'app.asar.unpacked');
   const ps = spawn(
     'powershell.exe',
     ['-NoLogo', '-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass', '-File', script],

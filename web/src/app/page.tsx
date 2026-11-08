@@ -2,6 +2,8 @@ import Image from "next/image";
 import {
   ArrowDown,
   ArrowRight,
+  Download,
+  FileText,
   Sparkles,
 } from "lucide-react";
 
@@ -54,11 +56,8 @@ export default function Home() {
                 href="#install"
                 className="group inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-primary px-6 text-[14.5px] font-medium text-primary-foreground transition-[background-color,transform] duration-150 hover:bg-primary/80 active:scale-[0.98] sm:w-auto"
               >
-                Run locally
-                <ArrowRight
-                  className="size-4 transition-transform duration-150 group-hover:translate-x-0.5"
-                  aria-hidden="true"
-                />
+                <Download className="size-4" aria-hidden="true" />
+                Download .exe
               </a>
               <a
                 href="#showcase"
@@ -205,11 +204,17 @@ export default function Home() {
                     href="#install"
                     className="group inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-white px-6 text-[14.5px] font-medium text-ink transition-[background-color,transform] duration-150 hover:bg-white/90 active:scale-[0.98] dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90 sm:w-auto"
                   >
-                    Run it locally
-                    <ArrowRight
-                      className="size-4 transition-transform duration-150 group-hover:translate-x-0.5"
-                      aria-hidden="true"
-                    />
+                    <Download className="size-4" aria-hidden="true" />
+                    Download .exe
+                  </a>
+                  <a
+                    href="/INSTALL.txt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 text-[14.5px] font-medium text-white backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 dark:border-border dark:bg-card dark:text-ink dark:hover:bg-muted sm:w-auto"
+                  >
+                    <FileText className="size-4" aria-hidden="true" />
+                    Setup Guide (.txt)
                   </a>
                   <a
                     href="https://github.com/avesh-pathak/data-monitor"

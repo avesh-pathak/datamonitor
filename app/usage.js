@@ -15,7 +15,7 @@ function readUsage({ appsStart = '', appsEnd = '' } = {}) {
   if (hit && Date.now() - hit.at < CACHE_MS) return Promise.resolve(hit.data);
 
   return new Promise((resolve) => {
-    const script = path.join(__dirname, 'usage.ps1');
+    const script = path.join(__dirname, 'usage.ps1').replace('app.asar', 'app.asar.unpacked');
     const args = ['-NoLogo', '-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass', '-File', script];
     if (appsStart && appsEnd) args.push('-AppsStart', appsStart, '-AppsEnd', appsEnd);
 

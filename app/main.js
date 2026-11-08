@@ -457,7 +457,7 @@ ipcMain.handle('app-days', (_event, payload) => {
       'powershell.exe',
       [
         '-NoLogo', '-NoProfile', '-NonInteractive', '-ExecutionPolicy', 'Bypass',
-        '-File', path.join(__dirname, 'appdays.ps1'),
+        '-File', path.join(__dirname, 'appdays.ps1').replace('app.asar', 'app.asar.unpacked'),
         '-AppId', appId, '-Start', start, '-End', end
       ],
       { windowsHide: true }

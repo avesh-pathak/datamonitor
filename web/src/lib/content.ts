@@ -240,17 +240,17 @@ export const requirements = [
 export const installSteps = [
   {
     number: "01",
-    title: "Run it",
-    body: "Clone the folder, run the three commands, and the readout appears in the taskbar immediately.",
+    title: "1-Click Installer",
+    body: "Run Data-Monitor-Setup.exe to start immediately. Portable .exe and source builds are also supported.",
   },
   {
     number: "02",
     title: "Start at login",
-    body: "Point a Startup shortcut at Electron with the app folder as its argument. Full steps are in the README.",
+    body: "Enabled during setup or by placing a shortcut in shell:startup. Full instructions in INSTALL.txt.",
   },
   {
     number: "03",
     title: "Uninstall cleanly",
-    body: "Quit from the tray, delete the shortcut and the folder. Nothing is written to the registry.",
+    body: "Quit from the tray and uninstall from Settings. Zero registry pollution, zero background services.",
   },
 ] as const;
