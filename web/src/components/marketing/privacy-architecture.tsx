@@ -156,7 +156,7 @@ export function PrivacyAndArchitecture() {
             <div className="flex flex-wrap items-center justify-between gap-3 pt-2 text-[11px] text-ink-muted">
               <span>Stack: Electron 45 · Node.js 18+ · PowerShell 5.1 · Koffi C++</span>
               <a
-                href="https://github.com/avesh-pathak/data-monitor"
+                href="https://github.com/avesh-pathak/datamonitor"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium text-brand hover:underline"

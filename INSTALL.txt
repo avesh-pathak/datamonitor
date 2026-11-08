@@ -3,7 +3,7 @@ DATA MONITOR FOR WINDOWS 11 — INSTALLATION & QUICK START GUIDE
 ================================================================================
 Version:      0.1.0
 Author:       Avesh Pathak (https://avesh.tech)
-Source:       https://github.com/avesh-pathak/data-monitor
+Source:       https://github.com/avesh-pathak/datamonitor
 License:      MIT
 Requirements: Windows 11 (64-bit), PowerShell 5.1+, Active Network Adapter
 
@@ -12,7 +12,7 @@ OPTION 1: INSTALL VIA EXECUTABLE (.EXE) — RECOMMENDED FOR ALL USERS
 --------------------------------------------------------------------------------
 1. Download the latest installer:
    File: Data-Monitor-Setup.exe (or Data-Monitor-Portable.exe)
-   URL:  https://github.com/avesh-pathak/data-monitor/releases/latest
+   URL:  https://github.com/avesh-pathak/datamonitor/releases/latest
 
 2. Run the installer:
    - Double-click 'Data-Monitor-Setup.exe'.
@@ -30,8 +30,8 @@ OPTION 1: INSTALL VIA EXECUTABLE (.EXE) — RECOMMENDED FOR ALL USERS
 OPTION 2: RUN FROM SOURCE (DEVELOPERS)
 --------------------------------------------------------------------------------
 1. Clone the repository:
-   git clone https://github.com/avesh-pathak/data-monitor.git
-   cd data-monitor
+   git clone https://github.com/avesh-pathak/datamonitor.git
+   cd datamonitor
 
 2. Run directly from root:
    npm install --prefix app
@@ -69,7 +69,7 @@ PRIVACY & SYSTEM FOOTPRINT
 --------------------------------------------------------------------------------
 NEED HELP OR WANT TO CONTRIBUTE?
 --------------------------------------------------------------------------------
-GitHub Repository:   https://github.com/avesh-pathak/data-monitor
+GitHub Repository:   https://github.com/avesh-pathak/datamonitor
 Portfolio / Contact: https://avesh.tech
 ================================================================================
 

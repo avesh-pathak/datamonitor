@@ -217,7 +217,7 @@ export default function Home() {
                     Setup Guide (.txt)
                   </a>
                   <a
-                    href="https://github.com/avesh-pathak/data-monitor"
+                    href="https://github.com/avesh-pathak/datamonitor"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 text-[14.5px] font-medium text-white backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 dark:border-border dark:bg-card dark:text-ink dark:hover:bg-muted sm:w-auto"

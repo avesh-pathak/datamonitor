@@ -67,7 +67,7 @@ No account. No sync. No telemetry. The app talks to Windows, and to nothing else
 ## Install
 
 ### Option 1: 1-Click Installer (.exe) — Recommended
-Download the latest prebuilt Windows installer from [GitHub Releases](https://github.com/avesh-pathak/data-monitor/releases):
+Download the latest prebuilt Windows installer from [GitHub Releases](https://github.com/avesh-pathak/datamonitor/releases):
 - **`Data-Monitor-Setup.exe`** (Installer with automatic taskbar integration & desktop shortcut)
 - **`Data-Monitor-Portable.exe`** (Self-contained, portable single executable)
 - **`INSTALL.txt`** (Offline plain-text guide)
@@ -78,8 +78,8 @@ Run the installer and the readout appears in your taskbar immediately.
 
 ```powershell
 # Clone the repository
-git clone https://github.com/avesh-pathak/data-monitor.git
-cd data-monitor
+git clone https://github.com/avesh-pathak/datamonitor.git
+cd datamonitor
 
 # Run directly from root
 npm install --prefix app

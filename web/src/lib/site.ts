@@ -19,7 +19,7 @@ export const site = {
     portfolioLabel: "avesh.tech",
     linkedin: "https://www.linkedin.com/in/avesh-pathak",
     linkedinLabel: "avesh-pathak",
-    github: "https://github.com/avesh-pathak/data-monitor",
+    github: "https://github.com/avesh-pathak/datamonitor",
   },
   locale: "en_US",
   keywords: [

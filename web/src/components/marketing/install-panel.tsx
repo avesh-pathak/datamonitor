@@ -5,8 +5,8 @@ import { Check, Copy, Download, ExternalLink, FileText, LockKeyhole, Terminal } 
 
 import { installSteps, requirements } from "@/lib/content";
 
-const sourceCommands = `git clone https://github.com/avesh-pathak/data-monitor.git
-cd data-monitor
+const sourceCommands = `git clone https://github.com/avesh-pathak/datamonitor.git
+cd datamonitor
 npm start`;
 
 export function InstallPanel() {
@@ -127,7 +127,7 @@ export function InstallPanel() {
 
                 <div className="flex flex-col gap-2.5 sm:items-end">
                   <a
-                    href="https://github.com/avesh-pathak/data-monitor/releases/latest/download/Data-Monitor-Setup.exe"
+                    href="https://github.com/avesh-pathak/datamonitor/releases/latest/download/Data-Monitor-Setup.exe"
                     className="group inline-flex h-11 items-center justify-center gap-2 rounded-full bg-primary px-5 text-[13.5px] font-medium text-primary-foreground shadow-sm transition-[background-color,transform] duration-150 hover:bg-primary/90 active:scale-[0.98]"
                   >
                     <Download className="size-4" aria-hidden="true" />
@@ -152,13 +152,13 @@ export function InstallPanel() {
                   Self-contained · No admin required
                 </span>
                 <a
-                  href="https://github.com/avesh-pathak/data-monitor/releases/latest/download/Data-Monitor-Portable.exe"
+                  href="https://github.com/avesh-pathak/datamonitor/releases/latest/download/Data-Monitor-Portable.exe"
                   className="font-medium text-ink-soft hover:text-brand hover:underline"
                 >
                   Portable version (.exe)
                 </a>
                 <a
-                  href="https://github.com/avesh-pathak/data-monitor/releases"
+                  href="https://github.com/avesh-pathak/datamonitor/releases"
                   target="_blank"
                   rel="noreferrer"
                   className="ml-auto inline-flex items-center gap-1 font-medium text-brand hover:underline"
@@ -201,11 +201,11 @@ export function InstallPanel() {
                   <code>
                     <span className="mr-3 select-none text-white/20">1</span>
                     <span className="select-none text-[#7cc4ff]">$ </span>
-                    <span className="text-white/85">git clone https://github.com/avesh-pathak/data-monitor.git</span>
+                    <span className="text-white/85">git clone https://github.com/avesh-pathak/datamonitor.git</span>
                     {"\n"}
                     <span className="mr-3 select-none text-white/20">2</span>
                     <span className="select-none text-[#7cc4ff]">$ </span>
-                    <span className="text-white/85">cd data-monitor</span>
+                    <span className="text-white/85">cd datamonitor</span>
                     {"\n"}
                     <span className="mr-3 select-none text-white/20">3</span>
                     <span className="select-none text-[#7cc4ff]">$ </span>
