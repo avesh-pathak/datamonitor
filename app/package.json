@@ -2,6 +2,7 @@
   "name": "taskbar-data-monitor",
   "version": "0.1.0",
   "description": "Local-only network usage monitor with a taskbar readout",
+  "author": "Avesh Pathak <https://avesh.tech>",
   "main": "main.js",
   "private": true,
   "scripts": {
@@ -21,7 +22,7 @@
         "nsis",
         "portable"
       ],
-      "icon": "assets/tray.png"
+      "icon": "assets/icon.png"
     },
     "nsis": {
       "oneClick": false,
