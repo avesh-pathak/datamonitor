@@ -28,7 +28,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Data Monitor"
+      "shortcutName": "Data Monitor",
+      "artifactName": "Data-Monitor-Setup.${ext}"
+    },
+    "portable": {
+      "artifactName": "Data-Monitor-Portable.${ext}"
     },
     "asar": true,
     "asarUnpack": [
