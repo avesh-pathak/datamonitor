@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Tool caches
+.fallow/
+.cache/
+*.tsbuildinfo
+.scratch*
+
+# Local agent instructions and glossary notes (all folders, any casing)
+[Aa][Gg][Ee][Nn][Tt].[Mm][Dd]
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Gg][Ll][Oo][Ss][Ss][Aa][Rr][Yy].[Mm][Dd]
+# Local planning notes (wayfinder map, tickets, research)
+.scratch/
+.dot*
+.impeccable*
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+out/
+.next/
+.vercel/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local helper script (never published)
+test.py
