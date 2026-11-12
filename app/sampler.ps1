@@ -16,7 +16,15 @@ function Get-ActiveAdapter {
         Sort-Object Speed -Descending |
         Select-Object -First 1
 
-    return $gateway.Name
+    if ($gateway) { return $gateway.Name }
+
+    # No gateway: fall back to a physical adapter, never a Hyper-V/WSL/VPN one.
+    $physical = @(Get-NetAdapter -Physical | Where-Object { $_.Status -eq 'Up' } | ForEach-Object { $_.Name })
+    return $candidates |
+        Where-Object { $physical -contains $_.Name } |
+        Sort-Object Speed -Descending |
+        Select-Object -First 1 |
+        ForEach-Object { $_.Name }
 }
 
 while ($true) {
